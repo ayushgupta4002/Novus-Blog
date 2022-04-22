@@ -1,0 +1,15 @@
+<%- include("partials/header"); -%>
+    <h1>PLEASE SHARE YOUR CONTENT HERE TO BE PUBLISHED:</h1>
+    <form class="" action="/contactuser" method="post">
+      <div class="form-group">
+        <label>Title</label>
+        <input class="form-control" type="text" name="Usertitle">
+
+        <label>content</label>
+        <textarea class="form-control" name="userbody" rows="5" cols="30"></textarea>
+
+      </div>
+      <button class="btn btn-primary" type="submit" name="button">Send</button>
+    </form>
+
+<%- include("partials/footer"); -%>
